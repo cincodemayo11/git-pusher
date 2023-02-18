@@ -9,10 +9,10 @@ git push
 
 #inputs the username stored in variable $GITUSER
 expect "*Username*"
-send "$GITUSER"
+send "$GITUSER\r"
 
 expect "*Password*"
-send "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"
+send "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\r"
 
 #script inputs the password stored in variable $GITPASS
 expect eof
