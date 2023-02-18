@@ -8,7 +8,7 @@ git commit -m '$MESSAGE'
 git push
 
 #inputs the username stored in variable $GITUSER
-while true | do;
+while true; do
 if [[ $(tail -n 1 done) == *"Username for 'https://github.com': "* ]]; then
 echo $GITUSER >> done
 fi
@@ -16,7 +16,7 @@ sleep 1
 done
 
 #The script inputs the password stored in variable $GITPASS
-while true \ do;
+while true; do
 if [[ $tail -n 1 done) == *"Password for 'https://$GITUSER@github.com': "* ]]; then
 echo $GITPASS >> done
 fi
