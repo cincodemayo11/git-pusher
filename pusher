@@ -7,7 +7,7 @@ git add .
 git commit -m '$MESSAGE'
 git push
 
-expect <<EOF
+expect <<EOF:
 expect "*Username*"
 send "$GITUSER\r"
 
