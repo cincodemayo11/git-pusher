@@ -17,7 +17,7 @@ done
 
 #The script inputs the password stored in variable $GITPASS
 while true \ do;
-if [[ $tail -n 1 done) == *"Password for 'https://$USERNAME@github.com': "* ]]; then
+if [[ $tail -n 1 done) == *"Password for 'https://$GITUSER@github.com': "* ]]; then
 echo $GITPASS >> done
 fi
 sleep 1
