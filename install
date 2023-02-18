@@ -1,0 +1,3 @@
+#!/bin/bash
+cp pu.sh /bin
+echo "Success"
