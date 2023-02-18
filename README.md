@@ -2,7 +2,7 @@ This script adds (add .). commits (commit -m) and pushes (git push) your repos f
 
 PREP WORK:
 
-Step 0: Install the expect package. In Ubuntu run : sudo apt-get install expect
+Step 0: Install the expect package. In Ubuntu run : sudo apt-get install expect\n
 Step 1: Clone this repo
 Step 2: cd into the repo folder
 Step 3: Run the installer (type "./install" then press "Enter")
