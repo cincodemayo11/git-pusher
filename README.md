@@ -17,7 +17,7 @@ Step 1: Clone this repo
 
 Step 2: cd into the repo folder
 
-Step 3: Run the installer (type "./install" then press "Enter")
+Step 3: Run the installer (type "sudo ./install" then press "Enter")
 
 Step 4: Set your github username as variable "GITUSER"
 
@@ -37,4 +37,4 @@ Step 9: Pray to your God that this works
 
 If you want to change username or password, simply change the variables' contents
 
-*****************God bless all frogs and may they roam and croak the Earth***********************
+*****************God bless all frogs and may they roam and croak the Earth*****************
