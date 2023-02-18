@@ -4,7 +4,7 @@
 
 read -p "Enter the commit message: " MESSAGE
 git add .
-git commit -m '$MESSAGE'
+git commit -m "$MESSAGE"
 
 expect <<EOF
 spawn git push
