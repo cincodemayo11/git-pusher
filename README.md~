@@ -1,0 +1,1 @@
+This script adds (add .). commits (commit -m) and pushes (git push) your repos for you. You only need to input the commit message.
