@@ -8,12 +8,11 @@ git commit -m '$MESSAGE'
 git push
 
 #inputs the username stored in variable $GITUSER
-expect "Username': "
+expect "*Username*"
+send "$GITUSER"
 
-cript inputs the password stored in variable $GITPASS
-while true; do
-if [[ $tail -n 1 done) == *"Password for 'https://$GITUSER@github.com': "* ]]; then
-echo $GITPASS >> done
-fi
-sleep 1
-done
+expect "*Password*"
+send "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"
+
+#script inputs the password stored in variable $GITPASS
+expect eof
