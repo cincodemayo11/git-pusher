@@ -17,7 +17,7 @@ Step 1: Clone this repo
 
 Step 2: cd into the repo folder
 
-Step 3: Run the installer (type "sudo ./install" then press "Enter")
+Step 3: Run the installer (type "sudo ./install" then press Enter)
 
 Step 4: Set your github username as variable "GITUSER"
 
