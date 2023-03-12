@@ -23,6 +23,7 @@ An optional commit message. If you don't wish to input a custom commit message, 
 
      ```sudo zypper install expect```
 
+
 1. Clone this repo
 
    ```git clone https://github.com/cincodemayo11/git-pusher.git```
@@ -33,30 +34,34 @@ An optional commit message. If you don't wish to input a custom commit message, 
 
    ```sudo ./install```
 
-4. Create an environment variable called `GITUSER` and enter your Github username as its value.
+4. Create an environment variable called `GITUSER` and enter your Github username as its value by following the following instructions:
+
    * Use a text editor of choice to open your `.bashrc` file.
+
    I will use Emacs as an example.
+
        - Open your shell start up file:
-
-   ```emacs ~/.bashrc```
-       - at the bottom of the file, type:
-
-   ```export GITUSER="your_username_here"```
-
-5. Set your github password as variable `GITPASS` and enter your Github Personal Access Token as its value.
-
-   - Open your shell start up file:
 
        ```emacs ~/.bashrc```
 
-  - at the bottom of the file, type:
+       - at the bottom of the file, type:
+
+       ```export GITUSER="your_username_here"```
+
+5. Set your github password as variable `GITPASS` and enter your Github Personal Access Token as its value.
+
+       - Open your shell start up file:
+
+       ```emacs ~/.bashrc```
+
+       - at the bottom of the file, type:
 
        ```export GITPASS="your_PAT_here"```
 
    Disclaimer: ```Don't omit the speech marks```
    What if I don't have a `.bashrc` file? - Create one
 
-  - Save and exit from the text editor.
+   - Save and exit from the text editor.
 
 6. In the terminal, run `source ~./bashrc` to save and apply all changes.
 
