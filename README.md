@@ -10,29 +10,35 @@ An optional commit message. If you don't wish to input a custom commit message, 
 # PREP WORK
 
 0. Install the expect, a small (<1mb) scripting language that's used to automate interactive applications. It is required for this script to work
-     * Ubuntu/Debian : `sudo apt-get install expect`
-     * Fedora/RHEL/CentOS: `sudo dnf install expect` or `sudo yum install expect`
-     * Arch Linux: `sudo pacman -S expect`
-     * openSUSE: `sudo zypper install expect`
+     * Ubuntu/Debian :
+     ```sudo apt-get install expect```
+     * Fedora/RHEL/CentOS:
+     ```sudo dnf install expect``` or ```sudo yum install expect```
+     * Arch Linux:
+     ```sudo pacman -S expect```
+     * openSUSE:
+     ```sudo zypper install expect```
 
 1. Clone this repo
    ```git clone https://github.com/cincodemayo11/git-pusher.git```
 
 2. Navigate (`cd`) into the repo folder
 
-3. Run the installer (`sudo ./install`)
+3. Run the installer
+   ```sudo ./install```
 
 4. Create an environment variable called `GITUSER` and enter your Github username as its value.
-   Use a text editor of choice to open your `.bashrc` file. I will use Emacs as an example.
-   Open your shell start up file
+   * Use a text editor of choice to open your `.bashrc` file.
+   I will use Emacs as an example.
+       - Open your shell start up file:
    ```emacs ~/.bashrc```
-   at the bottom of the file, type
+       - at the bottom of the file, type:
    ```export GITUSER="your_username_here"```
 
 5. Set your github password as variable `GITPASS` and enter your Github Personal Access Token as its value.
-   Open your shell start up file
+       - Open your shell start up file:
    ```emacs ~/.bashrc```
-   at the bottom of the file, type
+       - at the bottom of the file, type:
    ```export GITPASS="your_PAT_here"```
 
    ```Disclaimer: Don't omit the speech marks```
@@ -43,13 +49,14 @@ An optional commit message. If you don't wish to input a custom commit message, 
 
 # TO PUSH
 
-
 1. Navigate (`cd`) into the folder you want to push.
 
 2. Run the program by simply running
    ```pu.sh```
 
 3. Input commit message (or leave it empty to get an automessage) and press Enter.
+
+```You do not need to use speech marks/ apostrophes when typing a commit message```
 
 4. Pray to your God that this works
 
