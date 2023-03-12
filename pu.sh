@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 read -p "Enter a commit message (or press Enter for default message): " MESSAGE
 if [[ -z "$MESSAGE" ]]; then
     MESSAGE="Automatic commit message"

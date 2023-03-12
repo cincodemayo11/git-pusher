@@ -1,40 +1,60 @@
-WHAT THIS SCRIPT DOES:
+# WHAT THIS SCRIPT DOES
 
-This script adds (git add .)
+This script adds (`git add .`), commits (`git commit -m`) and pushes (`git push`) your repos for you with minimal input.
 
-commits (git commit -m)
+## Your input
 
-and pushes (git push) your repos for you.
-
-You only need to input the commit message.
+An optional commit message. If you don't wish to input a custom commit message, a generic automessage will be entered.
 
 
-PREP WORK:
+# PREP WORK
 
-Step 0: Install the expect package. In Ubuntu run : sudo apt-get install expect
+0. Install the expect, a small (<1mb) scripting language that's used to automate interactive applications. It is required for this script to work
+     * Ubuntu/Debian : `sudo apt-get install expect`
+     * Fedora/RHEL/CentOS: `sudo dnf install expect` or `sudo yum install expect`
+     * Arch Linux: `sudo pacman -S expect`
+     * openSUSE: `sudo zypper install expect`
 
-Step 1: Clone this repo
+1. Clone this repo
+   ```git clone https://github.com/cincodemayo11/git-pusher.git```
 
-Step 2: cd into the repo folder
+2. Navigate (`cd`) into the repo folder
 
-Step 3: Run the installer (type "sudo ./install" then press Enter)
+3. Run the installer (`sudo ./install`)
 
-Step 4: Set your github username as variable "GITUSER"
+4. Create an environment variable called `GITUSER` and enter your Github username as its value.
+   Use a text editor of choice to open your `.bashrc` file. I will use Emacs as an example.
+   Open your shell start up file
+   ```emacs ~/.bashrc```
+   at the bottom of the file, type
+   ```export GITUSER="your_username_here"```
 
-Step 5: Set your github password as variable "GITPASS"
+5. Set your github password as variable `GITPASS` and enter your Github Personal Access Token as its value.
+   Open your shell start up file
+   ```emacs ~/.bashrc```
+   at the bottom of the file, type
+   ```export GITPASS="your_PAT_here"```
+
+   ```Disclaimer: Don't omit the speech marks```
+   `What if I don't have a `.bashrc` file?` - Create one
+   Save and exit from the text editor.
+
+6. In the terminal, run `source ~./bashrc` to save and apply all changes.
+
+# TO PUSH
 
 
-TO PUSH:
+1. Navigate (`cd`) into the folder you want to push.
 
+2. Run the program by simply running
+   ```pu.sh```
 
-Step 6: cd into the folder you want to push (IMPORTANT)
+3. Input commit message (or leave it empty to get an automessage) and press Enter.
 
-Step 7: Run the program by simply typing "pu.sh" and pressing Enter
+4. Pray to your God that this works
 
-Step 8: Input commit message and press Enter
+If you want to change username or password, simply go to your `.bashrc` file and change the `GITPASS` or `GITUSER` variables' contents to reflect the new changes.
 
-Step 9: Pray to your God that this works
-
-If you want to change username or password, simply change the variables' contents
+Feel free to report any issues or ask any questions.
 
 *****************God bless all frogs and may they roam and croak the Earth*****************
