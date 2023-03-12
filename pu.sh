@@ -1,7 +1,11 @@
 #!/bin/bash
 
 
-read -p "Enter the commit message: " MESSAGE
+read -p "Enter a commit message (or press Enter for default message): " MESSAGE
+if [[ -z "$MESSAGE" ]]; then
+    MESSAGE="Automatic commit message"
+fi
+
 git add .
 git commit -m "$MESSAGE"
 
