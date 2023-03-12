@@ -33,10 +33,10 @@ An optional commit message. If you don't wish to input a custom commit message, 
    Open your shell start up file
    ```emacs ~/.bashrc```
    at the bottom of the file, type
-   ```export GITPASS="your_PAT_here"
+   ```export GITPASS="your_PAT_here"```
 
    ```Disclaimer: Don't omit the speech marks```
-   ```What if I don't have a `.bashrc` file? - Create one```
+   `What if I don't have a `.bashrc` file?` - Create one
    Save and exit from the text editor.
 
 6. In the terminal, run `source ~./bashrc` to save and apply all changes.
@@ -44,15 +44,16 @@ An optional commit message. If you don't wish to input a custom commit message, 
 # TO PUSH
 
 
-1. Navigate (`cd`)into the folder you want to push.
+1. Navigate (`cd`) into the folder you want to push.
 
-2. Run the program by simply running `pu.sh`.
+2. Run the program by simply running
+   ```pu.sh```
 
 3. Input commit message (or leave it empty to get an automessage) and press Enter.
 
 4. Pray to your God that this works
 
-If you want to change username or password, simply go to your `.bashrc` file and change the `GITPASS` or `GITUSER` variables' contents to reflect the new changes
+If you want to change username or password, simply go to your `.bashrc` file and change the `GITPASS` or `GITUSER` variables' contents to reflect the new changes.
 
 Feel free to report any issues or ask any questions.
 
