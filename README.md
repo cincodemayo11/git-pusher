@@ -59,7 +59,8 @@ An optional commit message. If you don't wish to input a custom commit message, 
        export GITPASS="your_PAT_here"
 
    Disclaimer: ```Don't omit the speech marks```
-   What if I don't have a `.bashrc` file? - Create one
+
+   What if I don't have a `.bashrc` file? - *Create one*
 
 - Save and exit from the text editor.
 
