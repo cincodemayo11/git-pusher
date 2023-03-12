@@ -42,7 +42,7 @@ An optional commit message. If you don't wish to input a custom commit message, 
 
 - Open your shell start up file:
 
-       ```emacs ~/.bashrc```
+       emacs ~/.bashrc
 
 - at the bottom of the file, type:
 
