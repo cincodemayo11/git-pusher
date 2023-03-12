@@ -11,6 +11,7 @@ An optional commit message. If you don't wish to input a custom commit message, 
 
 0. Install the expect, a small (<1mb) scripting language that's used to automate interactive applications. It is required for this script to work
      * Ubuntu/Debian :
+     
      ```sudo apt-get install expect```
      * Fedora/RHEL/CentOS:
      ```sudo dnf install expect``` or ```sudo yum install expect```
