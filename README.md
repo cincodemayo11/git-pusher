@@ -1,3 +1,5 @@
+
+
 # WHAT THIS SCRIPT DOES
 
 This script adds (`git add .`), commits (`git commit -m`) and pushes (`git push`) your repos for you with minimal input.
@@ -64,7 +66,7 @@ An optional commit message. If you don't wish to input a custom commit message, 
 
 - Save and exit from the text editor.
 
-6. In the terminal, run `source ~./bashrc` to save and apply all changes.
+6. In the terminal, run `source ~/.bashrc` to save and apply all changes.
 
 # TO PUSH
 
